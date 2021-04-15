@@ -1,5 +1,6 @@
 //Akhona Msubo
 //10/04/2021
+//Assignment2
 
 import java.util.Scanner;
 import java.util.*; 
@@ -57,8 +58,9 @@ import java.io.*;
     		String name = x.next();
     		String surname = x.next();
     		AVLStudent ss = new AVLStudent( studentID , name , surname);
-    		avl.insert(ss); 
+    		avl.insert(ss); 	
     	}
+System.out.println("Number of insert comparisons made made: " + avl.getInsertCount());
     }  
    
    public void printAllStudents(){
