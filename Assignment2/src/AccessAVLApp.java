@@ -13,6 +13,7 @@ public class AccessAVLApp extends AVLStudent {
     	String studentid = sc.nextLine();
     	System.out.println("\""+ studentid+"\""); 
     	s.printStudent(studentid);
+    	System.out.println(" ");
     	s.closeFile();
 	}
 }

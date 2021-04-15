@@ -60,7 +60,7 @@ import java.io.*;
     		AVLStudent ss = new AVLStudent( studentID , name , surname);
     		avl.insert(ss); 	
     	}
-System.out.println("Number of insert comparisons made made: " + avl.getInsertCount());
+//System.out.println("Number of insert comparisons made made: " + avl.getInsertCount());
     }  
    
    public void printAllStudents(){
@@ -77,7 +77,7 @@ System.out.println("Number of insert comparisons made made: " + avl.getInsertCou
      catch (Exception e){
      	  System.out.println("Access denied!");
      	 } 
-   System.out.println("Number of comparisons is: "+avl.getCount());
+   //System.out.println("Number of comparisons is: "+avl.getFindCount());
    }
    
    @Override

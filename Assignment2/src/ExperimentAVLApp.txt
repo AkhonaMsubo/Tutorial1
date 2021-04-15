@@ -1,0 +1,60 @@
+"DMSMEL001"
+Melokuhle Adams
+Number of find comparisons is: 3
+Number of insert comparisons is: 3839
+n = 500
+ 
+"MSKNAL002"
+Naledi Maseko
+Number of find comparisons is: 9
+Number of insert comparisons is: 8727
+n = 1000
+ 
+"MTHREL001"
+Relebohile Mathebula
+Number of find comparisons is: 11
+Number of insert comparisons is: 13942
+n = 1500
+ 
+"HNDNAL012"
+Naledi Hendricks
+Number of find comparisons is: 12
+Number of insert comparisons is: 19439
+n = 2000
+ 
+"CHKLET002"
+Lethokuhle Chauke
+Number of find comparisons is: 12
+Number of insert comparisons is: 25101
+n = 2500
+ 
+"BLYAMO048"
+Amogelang Baloyi
+Number of find comparisons is: 11
+Number of insert comparisons is: 30936
+n = 3000
+ 
+"WTBOKU001"
+Okuhle Witbooi
+Number of find comparisons is: 13
+Number of insert comparisons is: 36872
+n = 3500
+ 
+"DLMSIP003"
+Siphesihle Dlamini
+Number of find comparisons is: 13
+Number of insert comparisons is: 42940
+n = 4000
+ 
+"PTRREA005"
+Reatlegile Petersen
+Number of find comparisons is: 13
+Number of insert comparisons is: 49050
+n = 4500
+ 
+"MKHOMP015"
+Omphile Mkhize
+Number of find comparisons is: 12
+Number of insert comparisons is: 55281
+n = 5000
+ 

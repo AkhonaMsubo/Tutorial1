@@ -1,9 +1,9 @@
 "NKNTHA021"
 Thato Nkuna
-Number of comparisons is: 2
-"VSGAMO038"
-Amogelang Visagie
-Number of comparisons is: 12
-"BTHMIA007"
-Mia Buthelezi
-Number of comparisons is: 13
+ 
+"MNGLUT004"
+Luthando Moeng
+ 
+"MSXROR015"
+Rorisang Mosia
+ 

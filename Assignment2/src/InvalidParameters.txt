@@ -1,9 +1,9 @@
 "MSBAKH003"
 Access denied!
-Number of comparisons is: 13
-"JHUPST001"
+ 
+"XCHTRO008"
 Access denied!
-Number of comparisons is: 12
-"LSHQXZ008"
+ 
+"ASPING003"
 Access denied!
-Number of comparisons is: 12
+ 

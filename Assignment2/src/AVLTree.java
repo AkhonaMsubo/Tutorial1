@@ -5,11 +5,11 @@
 
 public class AVLTree<dataType extends Comparable<? super dataType>> extends BinaryTree<dataType>
 { 
-   int opCount = 0; 
+   int findCount = 0; 
    int insertCount = 0;
    
-   public int getCount(){
-   	return opCount;
+   public int getFindCount(){
+   	return findCount;
    }
    
    public int getInsertCount(){
@@ -82,7 +82,8 @@ public class AVLTree<dataType extends Comparable<? super dataType>> extends Bina
         insertCount++;
       if (d.compareTo (node.data) <= 0)
          node.left = insert (d, node.left);
-          
+      else
+        node.right = insert (d, node.right);   
       return balance (node);
    }
    
@@ -135,7 +136,7 @@ public class AVLTree<dataType extends Comparable<? super dataType>> extends Bina
          return find (d, root);
    }
    public BinaryTreeNode<dataType> find ( dataType d, BinaryTreeNode<dataType> node )
-   {    opCount++;
+   {    findCount++;
       if (d.compareTo (node.data) == 0) 
          return node; 
       else if (d.compareTo (node.data) < 0)
