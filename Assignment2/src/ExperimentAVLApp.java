@@ -1,13 +1,24 @@
+//Akhona Msubo
+//10/04/2021
+//Assignment2
+
 import java.util.Scanner;
 import java.util.*; 
 import java.io.*; 
+
+/** 
+ *ExperimentAVLApp extends AVLStudent
+ *Tests AccessAVLApp.java for different data sizes 
+ *@author akhona
+ *
+ */
 
 public class ExperimentAVLApp extends AVLStudent{
 
 public static void main(String[] args){
 	AVLTree<AVLStudent> avl2 = new AVLTree<AVLStudent> (); 
 	int i;
-	//AVLStudent s = new AVLStudent();
+	
  	try {
     	Scanner sc = new Scanner(new File("/home/akhona/Assignment2/data/oklist.txt"));
 	

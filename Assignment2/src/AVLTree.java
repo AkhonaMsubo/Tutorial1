@@ -76,15 +76,19 @@ public class AVLTree<dataType extends Comparable<? super dataType>> extends Bina
       root = insert (d, root);
    }
    public BinaryTreeNode<dataType> insert ( dataType d, BinaryTreeNode<dataType> node )
-   {
+   { insertCount = 0;
       if (node == null)
-         return new BinaryTreeNode<dataType> (d, null, null);
-        insertCount++;
-      if (d.compareTo (node.data) <= 0)
+         return new BinaryTreeNode<dataType> (d, null, null); 
+      if (d.compareTo (node.data) <= 0) {
          node.left = insert (d, node.left);
-      else
+         insertCount++; 
+          }   
+      else 
         node.right = insert (d, node.right);   
+        insertCount++;  
+              
       return balance (node);
+      
    }
    
    public void delete ( dataType d )
